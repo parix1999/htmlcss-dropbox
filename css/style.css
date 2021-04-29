@@ -103,10 +103,11 @@ header{
     width:30%;
     height:400px;
     margin-top:40px;
+    margin-right:40px;
     border:1px solid black;
 }
 .content-first .box-image{
-    width:70%;
+    width:calc(70% - 40px);
     height:600px;
     margin-top:40px;
     border:1px solid black;
