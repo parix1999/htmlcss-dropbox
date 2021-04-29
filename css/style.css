@@ -2,7 +2,8 @@
     box-sizing:border-box;
     margin:0;
     padding:0;
-    font-family:'Open sans', sans-serif;
+    /* font-family:'Open sans', sans-serif; */
+    font-family:Helvetica, sans-serif;
     font-weight:400px;
 }
 /* utility class start  */
@@ -147,7 +148,7 @@ header{
 /* inizio classi per il secondo contenuto */
 
 .second-content h1{
-    text-align:center;
+    text-align:left;
     font-size:44px;
 }
 .radio{
@@ -159,4 +160,27 @@ input[type="radio"]{
 .second-content .radio input:first-child{
     margin-left:0;
 }
+.second-content .first-square{
+    width:calc(100% / 3 - 10px);
+    height:500px;
+    margin-right:10px;
+    margin-top:50px;
+    border:1px solid black;
+}
+.second-content .second-square{
+    width:calc(100% / 3 - 20px);
+    height:500px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:50px;
+    border:1px solid black;
+}
+.second-content .third-square{
+    width:calc(100% / 3 - 10px);
+    height:500px;
+    margin-left:10px;
+    margin-top:50px;
+    border:1px solid black;
+}
+
 /* fine classi per il secondo contenuto */
