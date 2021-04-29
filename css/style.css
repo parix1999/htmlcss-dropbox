@@ -3,3 +3,15 @@
     margin:0;
     padding:0;
 }
+/* utility class start  */
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.fl{
+    float:left;
+}
+
+
+/* utility class end  */
