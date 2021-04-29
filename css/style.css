@@ -99,7 +99,7 @@ li{
 /* inizio classi header è il content-first*/
 header{
     width:100%;
-    height:535px;
+    height:520px;
     background-color:#b4d0e8;
 }
 .space{
@@ -182,5 +182,37 @@ input[type="radio"]{
     margin-top:50px;
     border:1px solid black;
 }
-
+.second-content .first-square .singolo{
+    width:100%;
+    height:60px;
+    text-align:center;
+    line-height:60px;
+    border-bottom:1px solid black;
+}
+.second-content .second-square .team{
+    width:100%;
+    height:60px;
+    text-align:center;
+    line-height:60px;
+    border-bottom:1px solid black;
+}
+.second-content .third-square .team{
+    width:100%;
+    height:60px;
+    text-align:center;
+    line-height:60px;
+    border-bottom:1px solid black;
+}
+.second-content .first-square img{
+    width:30px;
+    vertical-align:middle;
+}
+.second-content .second-square img{
+    width:30px;
+    vertical-align:middle;
+}
+.second-content .third-square img{
+    width:30px;
+    vertical-align:middle;
+}
 /* fine classi per il secondo contenuto */
