@@ -15,3 +15,23 @@
 
 
 /* utility class end  */
+.contain-nav{
+    width:100%;
+    height:100px;
+    border:1px solid black;
+}
+.contain-nav .logo{
+    width:10%;
+    height:50px;
+    border:1px solid black;
+}
+.contain-nav .center-nav{
+    width:80%;
+    height:50px;
+    border:1px solid black; 
+}
+.contain-nav .login{
+    width:10%;
+    height:50px;
+    border:1px solid black;
+}
