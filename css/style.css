@@ -14,6 +14,7 @@
 }
 ul{
     list-style-type:none;
+    display:inline-block;
 }
 li{
     display:inline-block;
@@ -45,10 +46,19 @@ li{
 .contain-nav .logo img{
     width:100px;
 }
+section.nav-sx, section.nav-dx{
+    display:inline-block;
+}
 section.nav-sx li{
     margin-left:20px;
 }
 section.nav-sx li:first-child{
     margin-left:0px;
+}
+section.nav-dx{
+    float:right;
+}
+section.nav-dx li{
+    margin-left:20px;
 }
 /* fine classi nav  */
