@@ -12,8 +12,12 @@
 .fl{
     float:left;
 }
-
-
+ul{
+    list-style-type:none;
+}
+li{
+    display:inline-block;
+}
 /* utility class end  */
 /* inizio classi del nav  */
 .contain-nav{
@@ -30,6 +34,7 @@
 .contain-nav .center-nav{
     width:80%;
     height:50px;
+    padding:15px;
     border:1px solid black; 
 }
 .contain-nav .login{
@@ -40,5 +45,10 @@
 .contain-nav .logo img{
     width:100px;
 }
-
+section.nav-sx li{
+    margin-left:20px;
+}
+section.nav-sx li:first-child{
+    margin-left:0px;
+}
 /* fine classi nav  */
