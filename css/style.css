@@ -19,6 +19,16 @@ ul{
 li{
     display:inline-block;
 }
+.botton{
+    background-color:#3161ff;
+    display:inline-block;
+    width:55px;
+    height:30px;
+    text-align:center;
+    line-height:30px;
+}
+
+
 /* utility class end  */
 /* inizio classi del nav  */
 .contain-nav{
@@ -41,24 +51,29 @@ li{
 .contain-nav .login{
     width:10%;
     height:50px;
+    padding:10px;
     border:1px solid black;
 }
 .contain-nav .logo img{
     width:100px;
 }
-section.nav-sx, section.nav-dx{
+.contain-nav section.nav-sx, section.nav-dx{
     display:inline-block;
 }
-section.nav-sx li{
+.contain-nav section.nav-sx li{
     margin-left:20px;
 }
-section.nav-sx li:first-child{
+.contain-nav section.nav-sx li:first-child{
     margin-left:0px;
 }
-section.nav-dx{
+.contain-nav section.nav-dx{
     float:right;
 }
-section.nav-dx li{
+.contain-nav section.nav-dx li{
     margin-left:20px;
+}
+.contain-nav .login{
+    text-align:right;
+    color:white;
 }
 /* fine classi nav  */
