@@ -86,7 +86,7 @@ li{
     color:white;
 }
 /* fine classi nav  */
-/* inizio classi header con contenuto con lo sfondo*/
+/* inizio classi header è il content-first*/
 header{
     width:100%;
     height:700px;
@@ -99,5 +99,16 @@ header{
     font-size:40px;
     font-weight:800;
 }
-
+.content-first .text{
+    width:30%;
+    height:400px;
+    margin-top:40px;
+    border:1px solid black;
+}
+.content-first .box-image{
+    width:70%;
+    height:600px;
+    margin-top:40px;
+    border:1px solid black;
+}
 /* fine classi header con contenuto con lo sfondo*/
