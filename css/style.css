@@ -275,3 +275,29 @@ input[type="radio"]{
     margin: 150px 0 0 30px;
     border:1px solid black;
 }
+/* fine quarto 4 contenuto */
+/* inizio quinto 5 contenuto */
+.fifth-content h1{
+    text-align:left;
+    font-size:44px;
+}
+.fifth-content .contenuto-1{
+    width:calc(100% )
+}
+.fifth-content .contenuto-2{
+    
+}
+.fifth-content .contenuto-3{
+    
+}
+.fifth-content .contenuto-4{
+    
+}
+.fifth-content .contenuto-5{
+    
+}
+.fifth-content .contenuto-6{
+    
+}
+
+/* fine quinto 5 contenuto */
