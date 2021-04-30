@@ -267,7 +267,24 @@ input[type="radio"]{
 }
 .spazio-interno hr{
     width:100px;
+    margin-top:40px;
+}
+.text-bottom h4{
+    margin-top:40px;
+}
+.text-bottom .margin{
     margin-top:20px;
+}
+.text-bottom .spunta{
+    display:inline-block;
+    width:10px;
+    vertical-align:middle;
+    color:#3161ff;
+}
+.text-bottom .text-spunta{
+    display:inline-block;
+    width:240px;
+    vertical-align:top;
 }
 /* fine classi per il secondo contenuto */
 /* inizio classe per il terzo contenuto  */
