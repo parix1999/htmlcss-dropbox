@@ -344,6 +344,19 @@ input[type="radio"]{
     height:500px;
     border:1px solid black;
 }
-
-
+.six-content .square-container-center{
+    width:33%;
+    height:500px;
+    border:1px solid black;
+}
+.six-content .square-container-dx{
+    width:33%;
+    height:500px;
+    border:1px solid black;
+}
+.square-1, .square-2, .square-3, .square-4{
+    width:50%;
+    height:50%;
+    border:1px solid black;
+}
 /* fine contenuto sesto */
