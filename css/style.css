@@ -43,7 +43,7 @@ li{
 }
 
 .spazio-sopra{
-    margin-top:20px;
+    margin-top:40px;
 }
 
 /* utility class end  */
@@ -282,22 +282,45 @@ input[type="radio"]{
     font-size:44px;
 }
 .fifth-content .contenuto-1{
-    width:calc(100% )
+    width:calc(100% / 3 - 10px);
+    height: 450px;
+    margin-right:10px;
+    border:1px solid black;
 }
 .fifth-content .contenuto-2{
-    
+    width:calc(100% / 3 - 20px);
+    height: 450px;
+    margin-right:10px;
+    margin-left:10px;
+    border:1px solid black;
 }
 .fifth-content .contenuto-3{
-    
+    width:calc(100% / 3 - 10px);
+    height: 450px;
+    margin-left:10px;
+    border:1px solid black;
 }
 .fifth-content .contenuto-4{
-    
+    width:calc(100% / 3 - 10px);
+    height: 450px;
+    margin-right:10px;
+    margin-top:60px;
+    border:1px solid black;
 }
 .fifth-content .contenuto-5{
-    
+    width:calc(100% / 3 - 20px);
+    height: 450px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:60px;
+    border:1px solid black;
 }
 .fifth-content .contenuto-6{
-    
+    width:calc(100% / 3 - 10px);
+    height: 450px;
+    margin-left:10px;
+    margin-top:60px;
+    border:1px solid black;
 }
 
 /* fine quinto 5 contenuto */
