@@ -219,20 +219,30 @@ input[type="radio"]{
 .spazio-interno{
     padding:15px;
 }
-.second-content .altezza-logo{
-    height:40px;
-    display:inline-block;
+.interlinea{
+    line-height:35px;
 }
-.utenti{
-    height:50px;
+.spazio-interno .price{
+    font-weight:bold;
+    margin-top:15px;
 }
-.altezza{
-    height:50px;
-    display:inline-block;
+.spazio-interno .mese{
+    color:gray;
+    margin-top:15px;
 }
-.utente{
-    display:inline-block;
+.spazio-interno .mese-1{
+    color:gray;
+    
 }
+.spazio-interno .logo-image{
+    margin-top:40px;
+}
+.spazio-interno .logo-image-2{
+    margin-top:20px;
+}
+
+
+
 /* fine classi per il secondo contenuto */
 /* inizio classe per il terzo contenuto  */
 .third-content .container-terzo-contenuto{
