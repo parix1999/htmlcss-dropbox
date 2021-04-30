@@ -327,7 +327,7 @@ input[type="radio"]{
     color:white;
 }
 .text h3{
-    font-size:25px;
+    font-size:30px;
 }
 .text .contatto{
     margin:20px 0 0 0;
@@ -339,16 +339,32 @@ input[type="radio"]{
 }
 /* inizio quarto contenuto  */
 .fourth-content .float-image{
-    width:calc(60% - 30px);
+    width:calc(60% - 60px);
     height:500px;
-    border:1px solid black;
 }
 .fourth-content .float-text{
     width:40%;
-    height: 250px;
-    margin: 150px 0 0 30px;
+    height: 300px;
+    margin: 100px 0 0 60px;
+}
+.fourth-content .float-image img{
+    width:100%;
+}
+.fourth-content .float-text h3{
+    font-size:30px;
+}
+.fourth-content p, .vicino-image{
+    margin-top:30px;
+}
+.fourth-content .botton{
+    width:200px;
+    height:40px;
+    font-weight:bold;
+    line-height:40px;
+    background-color:white;
     border:1px solid black;
 }
+
 /* fine quarto 4 contenuto */
 /* inizio quinto 5 contenuto */
 .fifth-content h1{
