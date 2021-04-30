@@ -368,7 +368,18 @@ input[type="radio"]{
 .sfondo .no-margin{
     margin-top:0;
 }
-
+.sfondo .text-prova-gratuita{
+    width:calc(70% - 20px);
+    height:150px;
+    margin:40px 20px 0 0;
+    border:1px solid black;
+}
+.sfondo .prova-gratuita{
+    width:30%;
+    height: 150px;
+    margin:40px 0 0 0;
+    border:1px solid black;
+}
 
 
 
