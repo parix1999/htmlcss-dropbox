@@ -223,13 +223,15 @@ input[type="radio"]{
     height:40px;
     display:inline-block;
 }
-.second-content .altezza-logo img{
-    vertical-align:middle;
+.utenti{
+    height:50px;
+}
+.altezza{
+    height:50px;
+    display:inline-block;
 }
 .utente{
     display:inline-block;
-    vertical-align:middle;
-    margin-top:10px;
 }
 /* fine classi per il secondo contenuto */
 /* inizio classe per il terzo contenuto  */
@@ -324,3 +326,24 @@ input[type="radio"]{
 }
 
 /* fine quinto 5 contenuto */
+/* inizio contenuto del sesto  */
+/* titolo */
+.six-content h1{
+    text-align:left;
+    font-size:44px;
+}
+.six-content .link{
+    margin:40px 0 40px 0;
+    color:#5291ff;
+}
+.six-content .link a{
+    color:#5291ff;
+}
+.six-content .square-container-sx{
+    width:33%;
+    height:500px;
+    border:1px solid black;
+}
+
+
+/* fine contenuto sesto */
