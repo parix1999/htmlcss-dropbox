@@ -242,14 +242,15 @@ input[type="radio"]{
 }
 .spazio-interno .prova{
     display:inline-block;
-    width:250px;
+    width:230px;
     vertical-align:top;
-    margin-top:5px;
+    margin-top:15px;
 }
 .prova-2{
     display:inline-block;
     width:30px;
     vertical-align:top;
+    margin-top:10px;
 }
 
 
