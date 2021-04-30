@@ -240,6 +240,17 @@ input[type="radio"]{
 .spazio-interno .logo-image-2{
     margin-top:20px;
 }
+.spazio-interno .prova{
+    display:inline-block;
+    width:250px;
+    vertical-align:top;
+    margin-top:5px;
+}
+.prova-2{
+    display:inline-block;
+    width:30px;
+    vertical-align:top;
+}
 
 
 
