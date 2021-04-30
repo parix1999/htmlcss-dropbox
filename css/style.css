@@ -162,14 +162,14 @@ input[type="radio"]{
 }
 .second-content .first-square{
     width:calc(100% / 3 - 10px);
-    height:500px;
+    height:700px;
     margin-right:10px;
     margin-top:50px;
     border:1px solid black;
 }
 .second-content .second-square{
     width:calc(100% / 3 - 20px);
-    height:500px;
+    height:700px;
     margin-right:10px;
     margin-left:10px;
     margin-top:50px;
@@ -177,7 +177,7 @@ input[type="radio"]{
 }
 .second-content .third-square{
     width:calc(100% / 3 - 10px);
-    height:500px;
+    height:700px;
     margin-left:10px;
     margin-top:50px;
     border:1px solid black;
@@ -205,6 +205,7 @@ input[type="radio"]{
 }
 .second-content .first-square img{
     width:30px;
+    height:30px;
     vertical-align:middle;
 }
 .second-content .second-square img{
@@ -215,4 +216,50 @@ input[type="radio"]{
     width:30px;
     vertical-align:middle;
 }
+.spazio-interno{
+    padding:15px;
+}
+.second-content .altezza-logo{
+    height:40px;
+    display:inline-block;
+}
+.second-content .altezza-logo img{
+    vertical-align:middle;
+}
+.utente{
+    display:inline-block;
+    vertical-align:middle;
+    margin-top:10px;
+}
 /* fine classi per il secondo contenuto */
+/* inizio classe per il terzo contenuto  */
+.third-content .container-terzo-contenuto{
+    width:100%;
+    height:300px;
+    border:1px solid black;
+}
+.third-content .team-2{
+    width:100%;
+    height:60px;
+    text-align:center;
+    line-height:60px;
+    border-bottom:1px solid black;
+}
+.third-content .team-2 img{
+    width:30px;
+    height:30px;
+    vertical-align:middle;
+}
+.third-content .text{
+    width:calc(60% - 10px);
+    height:150px;
+    margin-top:20px;
+    margin-right:10px;
+    border:1px solid black;
+}
+.third-content .botton-right{
+    width:40%;
+    height:60px;
+    margin-top:20px;
+    border:1px solid black; 
+}
