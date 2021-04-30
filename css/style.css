@@ -263,3 +263,15 @@ input[type="radio"]{
     margin-top:20px;
     border:1px solid black; 
 }
+/* inizio quarto contenuto  */
+.fourth-content .float-image{
+    width:calc(60% - 30px);
+    height:500px;
+    border:1px solid black;
+}
+.fourth-content .float-text{
+    width:40%;
+    height: 250px;
+    margin: 150px 0 0 30px;
+    border:1px solid black;
+}
