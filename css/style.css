@@ -456,7 +456,7 @@ input[type="radio"]{
 .square-1, .square-2, .square-3, .square-4{
     width:50%;
     height:50%;
-    
+    position:relative;
 }
 .sfondo{
     background-color:#b6d1e8;
@@ -466,6 +466,13 @@ input[type="radio"]{
 /* quadrati sulla sinistra */
 .six-content .square-1.green{
     background-color:#a3d49c;
+}
+.posizione{
+    width:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
 }
 .six-content .square-2.rosso-granata{
     background-color:#610227;
