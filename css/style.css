@@ -456,11 +456,38 @@ input[type="radio"]{
     width:50%;
     height:50%;
     border:1px solid black;
+    position:relative;
 }
 .sfondo{
     background-color:#b6d1e8;
     width:100%;
     height:300px;
+}
+/* quadrati sulla sinistra */
+.six-content .square-1.green{
+    background-color:#a3d49c;
+}
+.six-content .square-2.rosso-granata{
+    background-color:#610227;
+}
+.six-content .square-3.blu{
+    background-color:#1e94cf;
+}
+.six-content .square-4.rosso-chiaro{
+    background-color:#fe1617;
+}
+/* quadrati sulla destra */
+.six-content .square-1.rosso{
+    background-color:#d60819;
+}
+.six-content .square-2.azzurro{
+    background-color:#b6d1e8;
+}
+.six-content .square-3.blu-scuro{
+    background-color:#152082;
+}
+.six-content .square-4.giallo{
+    background-color:#fcd92e;
 }
 /* inizio classi sfondo del sesto contenuto */
 .sfondo .no-margin{
@@ -478,6 +505,7 @@ input[type="radio"]{
     margin:70px 0 0 0;
     border:1px solid black;
 }
+
 
 
 
