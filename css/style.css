@@ -7,10 +7,10 @@
     font-weight:400px;
 }
 /* utility class start  */
-.container-main{
+/* .container-main{
     width:1250px;
     margin:0 auto;
-}
+} */
 .clearfix::after{
     content:"";
     display:table;
