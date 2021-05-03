@@ -571,7 +571,7 @@ input[type="radio"]{
 /* inizio classi footer piè di pagina */
 footer{
     width:100%;
-    height:800px;
+    height:600px;
     margin-top:150px;
     background-color:black;
     color:white;
@@ -606,5 +606,19 @@ footer{
     display:block;
     line-height:25px;
 }
-
+.lenguages hr{
+    width:10%;
+}
+.lenguages img{
+    width:30px;
+    vertical-align:middle;
+}
+.lenguages{
+    margin-top:100px;
+}
+.ita{
+    display:inline-block;
+    vertical-align:middle;
+    color:#666666;
+}
 /* fine classi footer piè di pagina */
