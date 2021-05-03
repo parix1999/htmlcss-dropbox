@@ -458,15 +458,16 @@ input[type="radio"]{
     position:relative;
 }
 /* quadrati sulla sinistra */
-.six-content .square-1.green{
-    background-color:#a3d49c;
-}
 .posizione{
     width:50%;
     position:absolute;
     top:50%;
     left:50%;
-    transform:translate(-50%, -50%)
+    transform:translate(-50%, -50%);
+    filter:invert(100%);
+}
+.six-content .square-1.green{
+    background-color:#a3d49c;
 }
 .six-content .square-2.rosso-granata{
     background-color:#610227;
@@ -490,11 +491,12 @@ input[type="radio"]{
 .six-content .square-4.giallo{
     background-color:#fcd92e;
 }
+/* centrale */
 .six-content .square-container-center{
     background-color:#f5f5f5;
     padding:25px;
 }
-
+/* immagine quadrati */
 .six-content .square-container-center img{
     width:25%;
     margin-top:30px;
