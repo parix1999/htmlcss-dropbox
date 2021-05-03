@@ -173,27 +173,23 @@ input[type="radio"]{
     margin-top:50px;
     border:1px solid lightgray;
 }
-.second-content .first-square .singolo{
-    width:100%;
+.second-content .first-square .singolo{ 
     text-align:center;
     line-height:60px;
     border-bottom:1px solid lightgray;
 }
 .second-content .second-square .team{
-    width:100%;
     text-align:center;
     line-height:60px;
     border-bottom:1px solid lightgray;
 }
 .second-content .third-square .team{
-    width:100%;
     text-align:center;
     line-height:60px;
     border-bottom:1px solid lightgray;
 }
 .second-content .first-square img{
     width:30px;
-    height:30px;
     vertical-align:middle;
 }
 .second-content .second-square img{
@@ -213,14 +209,10 @@ input[type="radio"]{
 .spazio-interno .price{
     font-weight:bold;
     margin-top:15px;
+    margin-bottom:15px;
 }
 .spazio-interno .mese{
-    color:gray;
-    margin-top:15px;
-}
-.spazio-interno .mese-1{
-    color:gray;
-    
+    color:gray;   
 }
 .spazio-interno .logo-image{
     margin-top:40px;
@@ -246,9 +238,6 @@ input[type="radio"]{
     line-height:40px;
     color:white;
     margin:40px 0 0 0;
-}
-.b-space{
-    margin-top:46px;
 }
 .acquista{
     margin-top:20px;
