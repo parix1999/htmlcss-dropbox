@@ -553,9 +553,20 @@ input[type="radio"]{
 .seven-content .contenuto-domande{
     width:100%;
     height:80px;
-    border:1px solid black;
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
 }
-
+.testo-domande{
+    line-height:80px;
+    position:relative;
+}
+.testo-domande img{
+    width:20px;
+    vertical-align:middle;
+    position:absolute;
+    right:30px;
+    top:30px;
+}
 /* fine classi del settimo contenuto */
 /* inizio classi footer piè di pagina */
 footer{
